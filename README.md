@@ -1,9 +1,13 @@
 # UE5_Study
-A project repo for unreal dedicated to studying specific aspects of it.  
 
-Modules intended to get covered:
-*As I start to get this filled in I'll have a readme for each item in this bulleted list that will be linked.*
+A project repo for Unreal dedicated to studying various aspects of it.
 
+Modules to get covered (in no particular order):
+
+* Unreal Build Tool
+  * Automation Tool
+  * Build Graph
+  * Modules
 * Blueprints
   * VM
   * Node Graph
@@ -23,7 +27,6 @@ Modules intended to get covered:
   * System
   * UPlayer
 * Metaprogramming
-  * Unreal Build Tool
   * Unreal Header Tool
   * RTTI (UClass, and everything else related)
 * Networking
@@ -48,3 +51,5 @@ Modules intended to get covered:
     * ActorComponent
     * SceneComponent
     * etc
+
+*As I start to get this filled in I'll have a readme for each item in this bulleted list that will be linked.*
