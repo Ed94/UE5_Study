@@ -3,7 +3,7 @@
 Located in `Engine\Source\Programs\UnrealBuildTool\`  
 C# solution.
 
-Main Loop:
+## Main Loop
 
 Located in `UnrealBuildTool.cs`
 
