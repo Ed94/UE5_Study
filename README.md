@@ -2,11 +2,16 @@
 A project repo for unreal dedicated to studying specific aspects of it.  
 
 Modules intended to get covered:
-*As I start to get this filled in I'll have a readme for each item in this bulleted list that will be linked.
+*As I start to get this filled in I'll have a readme for each item in this bulleted list that will be linked.*
 
 * Blueprints
   * VM
   * Node Graph
+* Collision & Physics
+* Execution
+  * Main Loop
+  * Render Thread
+  * Task Graph
 * Gameplay Framework
   * GameInstance
   * UWorld & LevelScriptActors
@@ -43,4 +48,3 @@ Modules intended to get covered:
     * ActorComponent
     * SceneComponent
     * etc
-  * Character's 
