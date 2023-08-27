@@ -62,5 +62,3 @@ Derived from ToolMode, used to build a *target*.
     - Handle local builds
        - Get all project directories & build options
        - For each project: create a `SourceFileWorkingSet` object and `Build`.
-
-
