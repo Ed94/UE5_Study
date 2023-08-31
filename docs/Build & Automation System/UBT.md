@@ -62,3 +62,29 @@ Derived from ToolMode, used to build a *target*.
     - Handle local builds
        - Get all project directories & build options
        - For each project: create a `SourceFileWorkingSet` object and `Build`.
+7. Process the dumps to see if anything failed.
+8. Save Caches
+
+`BuildConfiguration` Contains target agonstic settings.
+
+
+
+## QueueProjectDirectory
+
+Used when retreving all project directories.
+
+Will Enqueue a `FileMetadataPrefetch.ScanProjectDirectory` call for the directory with the prefecter.
+
+
+### ScanProjectDirectory
+
+1. Get all extension directoires for the target project directory
+2. For each directory
+    - Enqueue a scan of the plugin directory (`ScanPluginFolder`, the `Plugins` folder)
+    - Enqueue a scan of the project directory (`ScanDirectoryTree`, the `Source` folder)
+
+`Unreal.GetExtensionDirs` will do an initial scan for Platform, Restricted, and BaseDirectories, and remove them from CachedDirectories based if any of options for doing so are set.
+
+#### ScanPluginFolder
+
+

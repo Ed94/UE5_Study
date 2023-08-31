@@ -3,8 +3,9 @@
 ## Conventions
 
 These docs will be written in a free-flow fasion. The main purpose of this repo is to remove the knowledge barrier to the engine. There are plenty of content written for this engine, but its not provided in a way that is easy to digest.  
-The order the engine is studied will be covered within in [journey](journey.md).  
-The perspective of the reader is for someone who's become accostomed to using the engine and is vaugely familiar with the code base, however they never really looked through the engine because there is no actual docs.  
+The order the engine is studied will be covered within in [Journey](journey.md).  
+
+The perspective of the writting is from someone who's become accostomed to using the engine and is vaugely familiar with the code base, however they never really looked through the engine because there is no actual docs.  
 Hopefully if the reader is interested in learning the engine, this approach will at least give an idea of how they could approach going about it.
 
 
