@@ -1,5 +1,8 @@
 # Unreal Build Tool
 
+The following is the *80/20* gist of UBT based off its main loop.  
+For a general outline of the architecture see [UBT Architecture Outline](UBT%20Architecture%20Outline.md)
+
 Located in `Engine\Source\Programs\UnrealBuildTool\`
 C# solution.
 
