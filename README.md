@@ -5,8 +5,8 @@ A project repo for Unreal dedicated to studying various aspects of it.
 Modules to get covered (in no particular order):
 
 * [Unreal Build Tool](docs/Build%20&%20Automation%20System/UBT.md)
-  * Automation Tool
-  * Build Graph
+  * [Automation Tool](docs/Build%20&%20Automation%20System/AutomationTool.md)
+  * [Build Graph](docs/Build%20&%20Automation%20System/BuildGraph.md)
   * Modules
 * Blueprints
   * VM
